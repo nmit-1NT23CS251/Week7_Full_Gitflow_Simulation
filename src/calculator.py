@@ -25,3 +25,10 @@ def divide(a: float, b: float) -> float:
 
 def square(a):
     return a * a
+
+
+def safe_divide(a, b):
+    """Safely divide two numbers and handle division by zero."""
+    if b == 0:
+        return "Error: Cannot divide by zero"
+    return a / b
