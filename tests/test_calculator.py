@@ -1,6 +1,8 @@
 """Tests run locally and in GitHub Actions."""
+
 import pytest
-from src.calculator import add, subtract, multiply, divide
+
+from src.calculator import add, divide, multiply, subtract
 
 
 def test_add():
