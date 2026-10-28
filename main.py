@@ -1,5 +1,6 @@
 """Command-line demo for the Week 7 Gitflow project."""
-from src.calculator import add, subtract, multiply, divide
+
+from src.calculator import add, divide, multiply, subtract
 
 
 def main() -> None:
